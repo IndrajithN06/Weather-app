@@ -1,6 +1,6 @@
 async function getWeather(cityV){
-    cityName.innerHTML=cityV;
-    const url = https://openweather43.p.rapidapi.com/weather?q=+cityV;
+    cityName.innerHTML = cityV;
+    const url = `https://openweather43.p.rapidapi.com/weather?q=${cityV}`;
     const options = {
         method: 'GET',
         headers: {
